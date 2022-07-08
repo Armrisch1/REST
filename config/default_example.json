@@ -1,0 +1,19 @@
+{
+  "app" : {
+    "port" : 3001,
+    "passwordSalt" : 10
+  },
+
+  "mongo" : {
+    "connectUri" : "mongodb+srv://armrisch:wCV9w6xhdjlrxSjn@cluster0.j4bjd.mongodb.net/rest?retryWrites=true&w=majority"
+  },
+
+  "jwt" : {
+    "secret" : "3eqA51ea9365b3b18d99e5acf153eaa0431ddf7f7e1c396c31556f92b2e1104821d1cf5682850e5f490f81e47122d0a6c8dff6075d07152555f1cfe31f2a170b",
+    "expiresIn" : "3600s",
+    "expiresInTest" : "60s",
+    "refreshExpiresIn" : "86400s",
+    "refreshExpiresInTest" : "120s",
+    "cookieExpire" : 86400000
+  }
+}
